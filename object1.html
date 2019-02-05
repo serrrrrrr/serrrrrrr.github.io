@@ -1,0 +1,12 @@
+﻿<div id="categories">
+	<div><a href="index.php?D=1">Model S</a> | <a class="del" onclick="del(this)">Удалить</a></div>
+	<div><a href="index.php?D=2">Model X</a> | <a class="del" onclick="del(this)">Удалить</a></div>
+	<div><a href="index.php?D=3">Roadster</a> | <a class="del" onclick="del(this)">Удалить</a></div>
+</div>
+<div class="formcat">
+	<form><br>
+		<input name="name" placeholder="Введите категорию" type="text" size="20" maxlength="30">
+		<input name="link" placeholder="Введите ссылку" type="text" size="20" maxlength="30">
+		<input type="button" value="Добавить" onclick="add(this.form)">
+	</form>
+</div>
